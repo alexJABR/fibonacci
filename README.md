@@ -19,7 +19,7 @@ endpoints
 Funcionamiento del metodo new:
   Valida que el tamamaño (cantidad de sucesiones) sea menor a 1000 (3 digitos) y que ese valor no se encuentre en la base de datos,
   en caso de que ya exita se regresa el registro, en caso de no existir se guarda el registro en la base de datos, crea el archivo
-  "./storage/[tamaño].json" con la sucesiony retorna el nuevo registro creado.
+  "./storage/[tamaño].json" con la sucesion y retorna el nuevo registro creado.
 
 Funcionamiento del metodo delete:
   Elimina el registro y el archivo json en caso de encontrarlo en la base de datos. Retorna la lista actualizada.
